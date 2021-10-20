@@ -48,4 +48,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/Debas-31/mobile-version-portfolo/blob/milestone-1/MIT.md) licensed.
+This project is [MIT](https://github.com/Debas-31/dbus-portfolio/blob/Project-1-Setup-and-mobile-version-skeleton/MIT.md) licensed.
