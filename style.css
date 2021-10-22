@@ -10,8 +10,7 @@
   --var-neutral-3: #a2a3ae;
   --var-body-bgc: #ececff;
   --var-background: #191765;
-  --var-par-text: #DCDCE8;
-
+  --var-par-text: #dcdce8;
 }
 
 /* set the default value to zero */
@@ -111,6 +110,21 @@ nav {
   right: -50px;
 }
 
+.card-lang-list ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0 2rem 0.75rem;
+}
+
+.card-lang-list ul li {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.93rem;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--var-neutral-2);
+}
+
 .skill .lists li {
   font-size: 0.93rem;
   color: var(--var-neutral-1);
@@ -145,14 +159,14 @@ nav {
 
 /* Work section */
 .work-heading {
-text-align: left;
-margin-top: 5rem;
-margin-bottom: 2.2rem;
-font-size: 2.5rem;
-font-weight: 500;
-font-style: normal;
-color: var(--var-primary-3);
-line-height: 3.25rem;
+  text-align: left;
+  margin-top: 5rem;
+  margin-bottom: 2.2rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--var-primary-3);
+  line-height: 3.25rem;
 }
 
 .cards {
@@ -169,39 +183,24 @@ line-height: 3.25rem;
 }
 
 .card-text h2 {
-font-size: 2rem;
-font-weight: 500;
-font-style: normal;
-color: var(--var-neutral-2);
-margin-bottom: 3rem;
-margin-top: 1rem;
-text-align: left;
-}
-
-.card-text p {
-  font-family: Inter;
-font-size: 1.25rem;
-font-weight: 400;
-font-style: normal;
-line-height: 1.75rem;
-color: var(--var-par-text);
-text-align: left;
-margin-bottom: 1.5rem;
-}
-
-.card-lang-list ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 1rem 0 2rem 0.75rem;
-}
-
-.card-lang-list ul li {
-  font-family: Inter;
-  font-size: 0.93rem;
+  font-size: 2rem;
   font-weight: 500;
   font-style: normal;
   color: var(--var-neutral-2);
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.card-text p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.75rem;
+  color: var(--var-par-text);
+  text-align: left;
+  margin-bottom: 1.5rem;
 }
 
 .btn {
@@ -236,25 +235,25 @@ margin-bottom: 1.5rem;
 }
 
 .background-img-m1 {
-position: absolute;
-top: -13rem;
-left: -2rem;
+  position: absolute;
+  top: -13rem;
+  left: -2rem;
 }
 
 .background-img-m2 {
   position: absolute;
   top: -12rem;
   right: -2rem;
-  }
+}
 
-  .background-img-m3 {
-    position: absolute;
-    top: -5rem;
-    left: -2rem;
-    }
+.background-img-m3 {
+  position: absolute;
+  top: -5rem;
+  left: -2rem;
+}
 
-    .background-img-m4 {
-      position: absolute;
-      top: -2.7rem;
-      right: -2rem;
-      }
+.background-img-m4 {
+  position: absolute;
+  top: -2.7rem;
+  right: -2rem;
+}
