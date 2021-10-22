@@ -2,12 +2,12 @@
 
 # Portfolio: setup and mobile version skeleton project
 
->This project demonstrated the Milestone-one on the mobile version skeleton.  
-The aim of this project to parse a Figma design to create an awesome UI using flexbox layout with the standard setup 
+>This project demonstrated the Milestone-two on the mobile version.  
+The aim of this project to parse a Figma design to create an awesome UI using flexbox and grid layout with the standard setup 
 while doing the best practices (Linter, Github Flow, Professional commits, pull request and documentation)
 
 
-![screenshot](./image/Mobile-frame.png)
+![screenshot](./image/Milestone-2-screenShoot.png)
 
 ### Built With
 
