@@ -22,7 +22,7 @@
 }
 
 body {
-  font-family: 'Roboto', 'Inter', sans-serif;
+  font-family: "Roboto", "Inter", sans-serif;
   background-color: var(--var-background);
   margin: auto;
   text-align: center;
@@ -118,7 +118,7 @@ nav {
 }
 
 .card-lang-list ul li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.93rem;
   font-weight: 500;
   font-style: normal;
@@ -193,7 +193,7 @@ nav {
 }
 
 .card-text p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
   font-style: normal;
