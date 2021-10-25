@@ -111,9 +111,10 @@ nav {
 }
 
 .card-lang-list ul {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
+  float: left;
   margin: 1rem 0 2rem 0.75rem;
 }
 
@@ -123,6 +124,8 @@ nav {
   font-weight: 500;
   font-style: normal;
   color: var(--var-neutral-2);
+  float: left;
+  padding: 0.5rem;
 }
 
 .skill .lists li {
@@ -204,6 +207,7 @@ nav {
 }
 
 .btn {
+  clear:both;
   font-size: 0.75rem;
   padding: 0.75rem;
   display: flex;
