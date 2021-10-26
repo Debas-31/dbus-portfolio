@@ -22,7 +22,7 @@
 }
 
 body {
-  font-family: 'Roboto', 'Inter', sans-serif;
+  font-family: "Roboto", "Inter", sans-serif;
   background-color: var(--var-background);
   margin: auto;
   text-align: center;
@@ -111,18 +111,30 @@ nav {
 }
 
 .card-lang-list ul {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
+  float: left;
   margin: 1rem 0 2rem 0.75rem;
 }
 
 .card-lang-list ul li {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.93rem;
   font-weight: 500;
   font-style: normal;
   color: var(--var-neutral-2);
+  float: left;
+  padding: 0.5rem;
+}
+
+.card-lang-list img {
+  position: absolute;
+  top: 15px;
+}
+
+.card-lang-list {
+  position: relative;
 }
 
 .skill .lists li {
@@ -142,7 +154,7 @@ nav {
   display: flex;
   justify-content: center;
   gap: 1.2rem;
-  font-size: 0.8rem;
+  font-size: 0.65rem;
   margin: 2rem auto;
 }
 
@@ -193,7 +205,7 @@ nav {
 }
 
 .card-text p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.25rem;
   font-weight: 400;
   font-style: normal;
@@ -204,6 +216,7 @@ nav {
 }
 
 .btn {
+  clear: both;
   font-size: 0.75rem;
   padding: 0.75rem;
   display: flex;

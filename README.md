@@ -25,13 +25,22 @@ To get a local copy up and running follow these simple example steps.
 - Clone this project by the command `git clone URL/repository_name.git`
 - `cd repository_name` folder
 - Open `index.html` in your local browser or using Live Server in Visual Studio Code.
-### Authors
+### Author1
 
 👤 **Debas Gebreslasie**
 
 - [GitHub](https://github.com/Debas-31)
 - [Twitter](https://twitter.com/DEBSH76956492)
 - [LinkedIn](https://www.linkedin.com/in/debas-gebrengus)
+
+### Author2
+  
+  👤 **Meqdam Al-qudah**
+
+- [GitHub](https://github.com/MeqdamAlqudah)
+- [Twitter](https://twitter.com/MeqdamQudah)
+- [LinkedIn](https://www.linkedin.com/in/meqdam-al-qudah-7514a21b5)
+
 
 ### 🤝 Contributing
 
