@@ -2,9 +2,7 @@
 
 # Portfolio: Contact form and completed mobile version
 
->This project of Milestone-three focuses on the contact form and the complete mobile version of my portfolio. Create forms with HTML5 validations.
-Understand the importance of UX.
-Understand how to parse a Figma design to create a UI.  
+>This project of Milestone-three focuses on the contact form and the complete mobile version of my portfolio.
 The aim of this project to parse a Figma design to create an awesome UI, understanding the importance of UX and html form validation. 
 while doing the best practices (Linter, Github Flow, Professional commits, pull request and documentation)
 
