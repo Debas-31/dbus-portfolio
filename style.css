@@ -158,6 +158,10 @@ nav {
   margin: 2rem auto;
 }
 
+#work-invisible {
+  display: none;
+}
+
 .work {
   display: flex;
   justify-content: center;
@@ -332,3 +336,127 @@ footer {
   margin-bottom: 10px;
   margin-top: 20px;
 }
+
+/* Media query: for larger mobile size screen */
+
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+  .headline-content p {
+    max-width: 60%;
+    margin: 0 auto;
+    letter-spacing: 0.05rem;
+    text-align: center;
+  }
+
+  .skill {
+    display: flex;
+    justify-content: center;
+  }
+
+  .work-line-img {
+    display: flex;
+  }
+}
+
+/* Media query for medium size screen */
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+  .navbar {
+    margin-left: 2.6rem;
+    margin-top: 1.6rem;
+  }
+
+  .humberger {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-content {
+    display: flex;
+    gap: 4rem;
+    margin-right: 3rem;
+  }
+
+  .headline-content p {
+    max-width: 60%;
+    margin: 0 auto;
+    letter-spacing: 0.05rem;
+    text-align: center;
+  }
+
+  .skill {
+    display: flex;
+    justify-content: center;
+  }
+
+  .work-line-img {
+    display: flex;
+  }
+
+  .work-social-media {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  #work-invisible {
+    display: block;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 4rem;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .img-placeholder {
+    width: 100%;
+    max-width: 60%;
+  }
+
+  .card-content {
+    width: 100%;
+    max-width: 35%;
+  }
+
+  .background-img-m1 {
+    position: absolute;
+    top: 2rem;
+    left: 40rem;
+  }
+
+  .background-img-m2 {
+    position: absolute;
+    top: -12rem;
+    right: -42rem;
+  }
+
+  .background-img-m3 {
+    position: absolute;
+    top: -1rem;
+    left: -40rem;
+  }
+
+  .background-img-m4 {
+    position: absolute;
+    top: -2.7rem;
+    right: -40rem;
+  }
+
+  .even {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+/* Media query: for desktop and large size screen */
