@@ -113,6 +113,7 @@ nav {
   position: absolute;
   top: 40px;
   right: -50px;
+  z-index: -1;
 }
 
 .card-lang-list ul {
@@ -260,24 +261,28 @@ nav {
   position: absolute;
   top: -13rem;
   left: -2rem;
+  z-index: -1;
 }
 
 .background-img-m2 {
   position: absolute;
   top: -12rem;
   right: -2rem;
+  z-index: -1;
 }
 
 .background-img-m3 {
   position: absolute;
   top: -5rem;
   left: -2rem;
+  z-index: -1;
 }
 
 .background-img-m4 {
   position: absolute;
   top: -2.7rem;
   right: -2rem;
+  z-index: -1;
 }
 
 /* Footer */
@@ -353,6 +358,10 @@ footer {
   display: none;
 }
 
+.text-2 {
+display: none;
+}
+
 /* Media query: for larger mobile size screen */
 
 @media only screen and (min-width: 500px) and (max-width: 767px) {
@@ -385,13 +394,9 @@ footer {
     margin-bottom: 1.8rem;
   }
 
-  /* .headline-content p {
-    font-size: 1.25rem;
-    line-height: 2rem;
-  } */
-
   .navbar {
     margin-top: 1.6rem;
+    width: 100%;
   }
 
   .humberger {
@@ -524,6 +529,15 @@ footer {
   .background-img-m4 {
     display: none;
   }
+
+  .text-2 {
+    display: flex;
+  }
+
+  .text-input {
+    display: flex;
+    gap: 2%;
+  }
 }
 
 /* Media query: for desktop and large size screen */
@@ -534,7 +548,7 @@ footer {
     background-repeat: no-repeat;
     background-position-x: 2rem;
     background-position-y: 7rem;
-    overflow-x: hidden;
+    margin: 0 auto;
   }
 
   .headline-content h1 {
@@ -557,6 +571,8 @@ footer {
 
   .navbar {
     margin-top: 1.6rem;
+    width: 100%;
+    max-width: 1118px;
   }
 
   .humberger {
@@ -688,4 +704,17 @@ footer {
   .div-icons .social-media-icons {
     margin: 2rem 0;
   }
+  .text-2 {
+    display: flex;
+  }
+
+  .text-2 {
+    display: block;
+  }
+
+  .text-input {
+    display: flex;
+    gap: 2%;
+  }
+
 }
