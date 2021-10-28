@@ -30,7 +30,7 @@ To get a local copy up and running follow these simple example steps.
 - Clone this project by the command `git clone https://github.com/Debas-31/dbus-portfolio.git`
 - `cd repository_name` folder
 - Open `index.html` in your local browser or using Live Server in Visual Studio Code.
-### Author1
+### Author
 
 👤 **Debas Gebreslasie**
 
