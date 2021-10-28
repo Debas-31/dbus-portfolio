@@ -1,15 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Contact form and completed mobile version
+# Portfolio: Desktop version
 
->This project of Milestone-three focuses on the contact form and the complete mobile version of my portfolio.
-The aim of this project to parse a Figma design to create an awesome UI, understanding the importance of UX and html form validation. 
+>This project of Milestone-Four focuses on the desktop version of my portfolio.
+The aim of this project to parse a Figma design to create an awesome UI, understanding the importance of UX and respostive web page using media query technology. 
 while doing the best practices (Linter, Github Flow, Professional commits, pull request and documentation)
 
-<tr>
-<td><img src="./image/Milestone-2-screenShoot.png" alt="screenshot-2"/> </td>
-<td><img src="./image/complete-mobile-version-screenShoot.png" alt="screenshot contact form"/> </td>
-</tr>
+## Desktop version
+![screenshot](./image/desktop-version-icons/desktop-screenShot.png)
+
+## mobile version
+![screenshot](./image/complete-mobile-version-screenShoot.png)
+
+
 
 ### Built With
 
@@ -34,14 +37,6 @@ To get a local copy up and running follow these simple example steps.
 - [GitHub](https://github.com/Debas-31)
 - [Twitter](https://twitter.com/DEBSH76956492)
 - [LinkedIn](https://www.linkedin.com/in/debas-gebrengus)
-
-### Author2
-  
-  👤 **Meqdam Al-qudah**
-
-- [GitHub](https://github.com/MeqdamAlqudah)
-- [Twitter](https://twitter.com/MeqdamQudah)
-- [LinkedIn](https://www.linkedin.com/in/meqdam-al-qudah-7514a21b5)
 
 
 ### 🤝 Contributing
