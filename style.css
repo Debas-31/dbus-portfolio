@@ -566,7 +566,7 @@ footer {
   .logo {
     position: relative;
     animation-name: logo;
-    transition-property: transform font-size;
+    transition-property: transform, font-size;
     animation-duration: 3s;
     animation-iteration-count: 1;
   }
@@ -578,6 +578,7 @@ footer {
       font-size: 1.6rem;
       font-weight: 500;
     }
+
     100% {
       left: 1rem;
       top: 1rem;
@@ -662,7 +663,7 @@ footer {
   .img-placeholder {
     width: 100%;
     max-width: 60%;
-    transition-property: transform border-radius;
+    transition-property: transform, border-radius;
   }
 
   .img-placeholder:hover {
@@ -706,11 +707,11 @@ footer {
 
   .footer-text p {
     position: relative;
-    transition-property: transform color;
+    transition-property: transform, color;
   }
 
   .footer-text p:hover {
-    transform: translate(70px 0);
+    transform: translate(70px, 0);
     color: violet;
   }
 
@@ -721,7 +722,7 @@ footer {
   .center-align-btn {
     display: flex;
     margin: 0 auto;
-    transition-property: color background-color font-size;
+    transition-property: color, background-color, font-size;
     transition-duration: 1s;
     transition-delay: 1s;
     transition-timing-function: ease-in-out;
