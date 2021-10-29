@@ -563,6 +563,24 @@ footer {
     margin-bottom: 2rem;
   }
 
+  .logo {
+    position: relative;
+    animation-name: logo;
+    transition-property: transform font-size;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+  }
+
+  @keyframes logo {
+    25% {left: 100rem; top: 100rem; font-size: 1.6rem;}
+    100% {left: 1rem; top: 1rem; font-size: 1.8rem;}
+  }
+
+  .logo:hover {
+    transform: rotate(-5deg);
+    font-size: 1.5rem;
+  }
+
   .container {
     margin: 0 auto;
     padding: 0 8.875rem;
@@ -575,7 +593,6 @@ footer {
   .navbar {
     margin-top: 1.6rem;
     width: 100%;
-    max-width: 1118px;
   }
 
   .humberger {
@@ -635,6 +652,12 @@ footer {
   .img-placeholder {
     width: 100%;
     max-width: 60%;
+    transition-property: transform border-radius;
+  }
+
+  .img-placeholder:hover {
+    transform: scale(1.1);
+    border-radius: 1rem;
   }
 
   .card-content {
@@ -671,6 +694,16 @@ footer {
     display: none;
   }
 
+  .footer-text p {
+    position: relative;
+    transition-property: transform color;
+  }
+
+  .footer-text p:hover {
+    transform: translate(70px 0);
+    color: violet;
+  }
+
   .let-chat {
     display: block;
   }
@@ -678,6 +711,16 @@ footer {
   .center-align-btn {
     display: flex;
     margin: 0 auto;
+    transition-property: color background-color font-size;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .center-align-btn:hover {
+    color: var(--var-secondary-2);
+    background-color: var(--var-secondary-3);
+    font-size: 1.5rem;
   }
 
   .center-align {
