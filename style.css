@@ -568,12 +568,22 @@ footer {
     animation-name: logo;
     transition-property: transform font-size;
     animation-duration: 3s;
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
   }
 
   @keyframes logo {
-    25% {left: 100rem; top: 100rem; font-size: 1.6rem; font-weight: 700;}
-    100% {left: 1rem; top: 1rem; font-size: 1.8rem; font-weight: 700;}
+    25% {
+      left: 100rem;
+      top: 100rem;
+      font-size: 1.6rem;
+      font-weight: 500;
+    }
+    100% {
+      left: 1rem;
+      top: 1rem;
+      font-size: 1.8rem;
+      font-weight: 500;
+    }
   }
 
   .logo:hover {
