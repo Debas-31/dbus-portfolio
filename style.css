@@ -572,8 +572,8 @@ footer {
   }
 
   @keyframes logo {
-    25% {left: 100rem; top: 100rem; font-size: 1.6rem;}
-    100% {left: 1rem; top: 1rem; font-size: 1.8rem;}
+    25% {left: 100rem; top: 100rem; font-size: 1.6rem; font-weight: 700;}
+    100% {left: 1rem; top: 1rem; font-size: 1.8rem; font-weight: 700;}
   }
 
   .logo:hover {

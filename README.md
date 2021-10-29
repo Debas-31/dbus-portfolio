@@ -1,9 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Desktop version
+# Portfolio: Animation and Transition
 
->This project of Milestone-Four focuses on the desktop version of my portfolio.
-The aim of this project to parse a Figma design to create an awesome UI, understanding the importance of UX and respostive web page using media query technology. 
+>This project of Milestone focuses on the desktop version of my portfolio.
+The aim of this project to create an awesome UI, understanding the importance of UX using animation and transition technologies. 
 while doing the best practices (Linter, Github Flow, Professional commits, pull request and documentation)
 
 ## Desktop version
@@ -30,13 +30,21 @@ To get a local copy up and running follow these simple example steps.
 - Clone this project by the command `git clone https://github.com/Debas-31/dbus-portfolio.git`
 - `cd repository_name` folder
 - Open `index.html` in your local browser or using Live Server in Visual Studio Code.
-### Author
+### Author1
 
 👤 **Debas Gebreslasie**
 
 - [GitHub](https://github.com/Debas-31)
 - [Twitter](https://twitter.com/DEBSH76956492)
 - [LinkedIn](https://www.linkedin.com/in/debas-gebrengus)
+
+### Author2
+  
+  👤 **Meqdam Al-qudah**
+
+- [GitHub](https://github.com/MeqdamAlqudah)
+- [Twitter](https://twitter.com/MeqdamQudah)
+- [LinkedIn](https://www.linkedin.com/in/meqdam-al-qudah-7514a21b5)
 
 
 ### 🤝 Contributing
