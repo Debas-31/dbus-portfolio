@@ -21,6 +21,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow: scroll;
+}
+
 body {
   font-family: "Roboto", "Inter", sans-serif;
   background-color: var(--var-background);
@@ -359,7 +363,7 @@ footer {
 }
 
 .text-2 {
-display: none;
+  display: none;
 }
 
 /* Media query: for larger mobile size screen */
@@ -704,9 +708,6 @@ display: none;
   .div-icons .social-media-icons {
     margin: 2rem 0;
   }
-  .text-2 {
-    display: flex;
-  }
 
   .text-2 {
     display: block;
@@ -716,5 +717,4 @@ display: none;
     display: flex;
     gap: 2%;
   }
-
 }
