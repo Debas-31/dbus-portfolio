@@ -327,7 +327,6 @@ footer {
 .text-input input,
 .email-input input,
 .text-area textarea {
-  display: block;
   width: 100%;
   margin: 1rem 0;
   padding: 0.9rem 1rem;
