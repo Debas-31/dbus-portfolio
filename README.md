@@ -1,10 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Animation and Transition
+# Portfolio: application deploy
 
->This project of Milestone focuses on the desktop version of my portfolio.
-The aim of this project to create an awesome UI, understanding the importance of UX using animation and transition technologies. 
-while doing the best practices (Linter, Github Flow, Professional commits, pull request and documentation)
+>This project of Milestone four focuses on how to deploy an application or web page of my portfolio.
 
 ## Desktop version
 ![screenshot](./image/desktop-version-icons/desktop-screenShot.png)
@@ -30,21 +28,13 @@ To get a local copy up and running follow these simple example steps.
 - Clone this project by the command `git clone https://github.com/Debas-31/dbus-portfolio.git`
 - `cd repository_name` folder
 - Open `index.html` in your local browser or using Live Server in Visual Studio Code.
-### Author1
+### Author
 
 👤 **Debas Gebreslasie**
 
 - [GitHub](https://github.com/Debas-31)
 - [Twitter](https://twitter.com/DEBSH76956492)
 - [LinkedIn](https://www.linkedin.com/in/debas-gebrengus)
-
-### Author2
-  
-  👤 **Meqdam Al-qudah**
-
-- [GitHub](https://github.com/MeqdamAlqudah)
-- [Twitter](https://twitter.com/MeqdamQudah)
-- [LinkedIn](https://www.linkedin.com/in/meqdam-al-qudah-7514a21b5)
 
 
 ### 🤝 Contributing
@@ -58,7 +48,7 @@ Feel free to check the [issues page](https://github.com/Debas-31/dbus-portfolio/
 Give a ⭐️ if you like this project!
 
 ### Acknowledgments
-- Figma community
+- Github
 
 ## 📝 License
 
