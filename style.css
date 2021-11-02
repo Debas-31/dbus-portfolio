@@ -236,7 +236,7 @@ nav {
   display: flex;
   justify-self: start;
   color: var(--var-secondary-1);
-  background-color: var(--var-primary-3);
+  background-color: var(--var-primary-1);
   border: none;
 }
 
