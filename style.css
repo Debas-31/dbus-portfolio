@@ -236,7 +236,7 @@ nav {
   display: flex;
   justify-self: start;
   color: var(--var-secondary-1);
-  background-color: var(--var-primary-1);
+  background-color: var(--var-primary-3);
   border: none;
 }
 
@@ -353,7 +353,7 @@ footer {
   padding: 0.75rem 2rem;
   justify-self: start;
   color: var(--var-secondary-1);
-  background-color: var(--var-primary-1);
+  background-color: var(--var-primary-3);
   border: none;
 }
 
