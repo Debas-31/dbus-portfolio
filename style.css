@@ -11,7 +11,7 @@
   --var-body-bgc: #ececff;
   --var-background: #191765;
   --var-par-text: #dcdce8;
-  --var-contrast: #5639D5;
+  --var-contrast: #5639d5;
 }
 
 /* set the default value to zero */
@@ -237,7 +237,7 @@ nav {
   display: flex;
   justify-self: start;
   color: var(--var-secondary-1);
-  background-color: var(--var-contrast);  
+  background-color: var(--var-contrast);
   border: none;
 }
 
