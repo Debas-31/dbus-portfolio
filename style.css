@@ -72,10 +72,9 @@ nav {
   padding-right: 1rem;
 }
 
-
 /* Side bar start here */
 
-.sideBar{
+.sideBar {
   position: absolute;
   background-color: var(--var-background);
   width: 100%;
@@ -102,7 +101,7 @@ nav {
   margin-bottom: 4rem;
 }
 
-.sideBar-link{
+.sideBar-link {
   display: flex;
   justify-content: space-between;
   align-items: center;
