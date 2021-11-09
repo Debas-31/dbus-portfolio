@@ -24,6 +24,7 @@
 
 html {
   overflow: scroll;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -71,6 +72,66 @@ nav {
   font-size: 1.5rem;
   padding-right: 1rem;
 }
+
+/* Side bar start here */
+
+.sideBar {
+  position: absolute;
+  background-color: var(--var-background);
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  margin-top: -5.6rem;
+  margin-left: -2.8rem;
+  padding-left: 4rem;
+  padding-right: 2rem;
+  z-index: 10;
+  transform: translate(-120%);
+  transition: all 1s ease-in-out;
+}
+
+.showSideBar {
+  transform: translate(0);
+}
+
+.sideBar-exit .fa-times {
+  color: var(--var-neutral-2);
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  margin-bottom: 4rem;
+}
+
+.sideBar-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.sideBar-link .fa-chevron-right {
+  color: var(--var-secondary-3);
+}
+
+.sideBar-link a {
+  font-size: 1.5rem;
+  color: var(--var-neutral-2);
+}
+
+.side-image-left {
+  position: absolute;
+  left: -2rem;
+  top: 9rem;
+  z-index: -1;
+}
+
+.side-image-right {
+  position: absolute;
+  right: -4rem;
+  top: 30rem;
+}
+
+/* side bar end */
 
 .headline-content {
   display: flex;

@@ -19,16 +19,32 @@
             <div class="menu">
                 <a href="#" class="humberger"><i class="fas fa-bars"></i></a>
                 <div class="menu-content">
-                  <a href="#">Portfolio</a>
-                  <a href="#">About</a>
-                  <a href="#">Contact</a>
+                  <a href="#portfolio">Portfolio</a>
+                  <a href="#about">About</a>
+                  <a href="#contact">Contact</a>
                   <a href="#"><img class="envelop" src="./image/desktop-version-icons/envelop.png" alt="image envelop"></a>
                 </div>
             </div>
         </nav>
+  <!-- side menu -->
+  <div class="sideBar">
+    <div class="sideBar-exit">
+      <i class="fas fa-times"></i>
+    </div>
+    <ul class="sidebar-links">
+      <li class="sideBar-link"><a href="#portfolio">Portfolio</a><i class="fas fa-chevron-right "></i></li>
+      <li class="sideBar-link"><a href="#about">About</a><i class="fas fa-chevron-right "></i></li>
+      <li class="sideBar-link"><a href="#contact">Contact</a><i class="fas fa-chevron-right"></i></li>
+    </ul>
+    <div class="back-slide-img">
+      <img src="./image/aside-background/aside-image-left.png" alt="background image left side" class="side-image-left">
+      <img src="./image/aside-background/aside-image-right.png" alt="background image left side" class="side-image-right">
+    </div>
+  </div>
+  <!-- Side menu end here -->
       </header>
       <main>
-      <section class="headline-section">
+      <section id="portfolio" class="headline-section">
           <div class="headline-content">
               <h1>Debas G'ngus</h1>
               <h2>Software Development</h2>
@@ -80,9 +96,8 @@
                 <span>work</span>
             </div> 
           </div>
-          
       </section>
-      <section class="work-section">
+      <section id="about" class="work-section">
         <h2 class="work-heading">MY RECENT WORK</h2>
         <img class="work-line-img" src="./image/horizontal-line.png" alt="horizontal line image">
         <div class="cards">
@@ -185,7 +200,7 @@
         </div>
       </section>
     </main>
-   <footer id="footer-section" class="footer">
+   <footer id="contact" class="footer">
     <div class="footer-content">
       <div class="footer-text">
         <h2 class="contact-us">CONTACT US</h2>
@@ -221,5 +236,6 @@
     <div class="link-email"><a 
       href="#" class="email-address">debas31@gmail.com</a></div>
   </div>
+  <script src="main.js"></script>
 </body>
 </html>

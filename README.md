@@ -1,14 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: application deploy
+# Portfolio: Mobile Menu
 
->This project of Milestone four focuses on how to deploy an application or web page of my portfolio.
+>This project of Milestone seven focuses how to implement DOM using javascript functions and methods. 
 
-## Desktop version
-![screenshot](./image/desktop-version-icons/desktop-screenShot.png)
 
 ## mobile version
-![screenshot](./image/complete-mobile-version-screenShoot.png)
+![screenshot](./image/aside-background/Mobile-frame.png)
 
 
 
@@ -38,11 +36,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Author2
 
-👤 **Kingsley Ibe**
+👤 **Bogdan Stojanovic**
 
-- [GitHub](https://github.com/kingsleyibe)
-- [Twitter](https://twitter.com/ibekingsley2)
-- [LinkedIn](https://www.linkedin.com/in/kingsley-ibe)
+- [GitHub](https://github.com/kakarrot92)
+- [Twitter](https://twitter.com/kakarrot1992)
+- [LinkedIn](:https://www.linkedin.com/in/bogdan-stojanovic-97829b136/)
 
 
 ### 🤝 Contributing
