@@ -382,7 +382,6 @@ nav {
   line-height: 28px;
   font-family: "Inter", sans-serif;
   margin-top: 1.8em;
-  font-weight: 200;
   text-align: left;
   color: var(--var-par-text);
   font-weight: 400;
@@ -395,7 +394,6 @@ nav {
   font-family: "Inter", sans-serif;
   margin-top: 2em;
   margin-bottom: 2em;
-  font-weight: 200;
   gap: 10px;
   font-style: normal;
   font-weight: 500;
@@ -569,7 +567,6 @@ nav {
   text-decoration: none;
 }
 
-
 /* Footer */
 
 footer {
@@ -638,7 +635,6 @@ footer {
   flex-direction: column;
   align-items: center;
 }
-
 
 .center-align-btn {
   display: none;
