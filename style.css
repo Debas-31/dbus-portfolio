@@ -183,9 +183,6 @@ nav {
 }
 
 .card-lang-list ul {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
   float: left;
   margin: 1rem 0 2rem 0.75rem;
 }
@@ -351,6 +348,225 @@ nav {
   z-index: -1;
 }
 
+/*
+  ========================================
+  projects-container div
+  ========================================
+*/
+
+.projects-container {
+  display: grid;
+  justify-items: center;
+  margin-inline: 30px;
+  gap: 3em;
+  margin-top: 3em;
+  margin-bottom: 5em;
+  color: var(--var-par-text);
+}
+
+.project .screenshot-container img {
+  width: 100%;
+  height: auto;
+}
+
+.project .project-title {
+  font-size: 32px;
+  color: var(--var-neutral-2);
+  line-height: 3rem;
+  text-align: left;
+  padding-top: 2rem;
+}
+
+.project .project-description {
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "Inter", sans-serif;
+  margin-top: 1.8em;
+  text-align: left;
+  color: var(--var-par-text);
+  font-weight: 400;
+}
+
+.project .technologies-used {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  gap: 10px;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--var-neutral-2);
+}
+
+.project .project-details-btn {
+  border: none;
+  width: 82px;
+  height: 35px;
+  background-color: var(--var-primary-2);
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  color: var(--var-secondary-1);
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.project-details-btn:hover {
+  background-color: var(--var-primary-2);
+  color: var(--var-neutral-2);
+}
+
+.project-details-btn:active {
+  background-color: var(--var-primary-1);
+}
+
+.project-details-btn:focus {
+  background-color: var(--var-primary-1);
+}
+
+.project-details-btn:disabled {
+  background-color: var(--var-secondary-2);
+}
+
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--color-primary-3);
+  opacity: 0.8;
+  z-index: 50;
+  display: none;
+}
+
+/*
+  ========================================
+  popup
+  ========================================
+*/
+
+.popup-project {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 70%;
+  max-width: 95%;
+  height: 95vh;
+  background-color: rgb(55, 55, 104);
+  border: 1px solid #fff;
+  font-family: 'Roboto', serif;
+  backdrop-filter: blur(10px);
+  display: flex;
+  padding: 12px 30px;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  transition: visibility 1s linear, opacity 0.6s ease-in-out;
+  z-index: 99;
+  visibility: hidden;
+  opacity: 0;
+  color: var(--var-neutral-2);
+  overflow-y: auto;
+}
+
+.popup-project .popup-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 32px;
+  color: var(--var-neutral-2);
+}
+
+.popup-title {
+  position: absolute;
+  left: 30px;
+}
+
+.popup-close {
+  position: absolute;
+  right: 20px;
+  cursor: pointer;
+}
+
+.popup-main .popup-image-container {
+  width: 95%;
+  margin-inline: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.popup-image-container .popup-image {
+  max-width: 85%;
+}
+
+.popup-main .popup-long-description {
+  font-family: 'Roboto', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 2rem;
+  display: -webkit-box;
+  max-width: 500px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top: 2rem;
+}
+
+.popup-technologies {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+  align-items: center;
+}
+
+.popup-technologies .technologies-used {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  margin-left: -15%;
+  gap: 10px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.popup-technologies ul .separator {
+  margin-top: -10px;
+}
+
+.popup-btns-container {
+  display: flex;
+  gap: 10%;
+  margin-bottom: 30px;
+  margin-left: -6%;
+}
+
+.popup-btns-container .popup-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  background-color: var(--var-primary-2);
+  color: white;
+  min-width: 140px;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
 /* Footer */
 
 footer {
@@ -407,6 +623,17 @@ footer {
 
 .contact-btn {
   margin-bottom: 4.5rem;
+}
+
+.popup-close:hover {
+  color: red;
+}
+
+.popup-main {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .center-align-btn {
@@ -761,6 +988,81 @@ footer {
   .even {
     display: flex;
     flex-direction: row-reverse;
+  }
+
+  .projects-container {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects-container .project:nth-child(odd) {
+    display: grid;
+    justify-items: center;
+    text-align: left;
+    grid-template-columns: 1fr 30px 1fr;
+    grid-template-areas: "photo . rest" "photo . rest" "photo . rest" "photo . rest";
+  }
+
+  .projects-container .project:nth-child(even) {
+    display: grid;
+    justify-items: center;
+    padding-left: 40px;
+    grid-template-columns: 1fr 30px 1.5fr;
+    grid-template-areas: "rest . photo" "rest . photo" "rest . photo" "rest . photo";
+  }
+
+  .project .screenshot-container {
+    grid-area: photo;
+    width: 500px;
+    min-height: 400px;
+    margin-top: 3rem;
+    transition-property: transform, border-radius;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+  }
+
+  .project .screenshot-container img:hover {
+    transform: scale(1.02);
+    border-radius: 10px;
+  }
+
+  .project .project-rest {
+    grid-area: rest;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 0.5em;
+    height: 100%;
+  }
+
+  .project-rest .project-description {
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Inter", sans-serif;
+    margin-top: 0.5em;
+    font-weight: 200;
+    text-align: left;
+    max-width: 100%;
+  }
+
+  .project-rest .technologies-used {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .project-rest .project-details-btn {
+    position: relative;
+    bottom: 0;
   }
 
   .footer-text .contact-us {
