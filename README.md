@@ -1,12 +1,15 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Mobile Menu
+# Portfolio: Details popup window
 
->This project of Milestone seven focuses how to implement DOM using javascript functions and methods. 
+>This project of Milestone eight focuses how to implement DOM using javascript functions and methods with window popup functionality. 
 
 
 ## mobile version
-![screenshot](./image/aside-background/Mobile-frame.png)
+![screenshot](./image/pop-up/mobileScreenPopup.png);
+
+## Desktop version
+![screenshot](./image/pop-up/desktopScreenShot-window-popup.png)
 
 
 
