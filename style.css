@@ -348,6 +348,11 @@ nav {
   z-index: -1;
 }
 
+#validate-message {
+  padding-bottom: 2rem;
+  color: red;
+}
+
 /*
   ========================================
   projects-container div
