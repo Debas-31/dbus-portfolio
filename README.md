@@ -1,15 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Details popup window
+# Portfolio: Validate contact form
 
->This project of Milestone eight focuses how to implement DOM using javascript functions and methods with window popup functionality. 
+>This project of Milestone nine focuses how to implement DOM using javascript functions and methods to validate an input email while users filled the form.
 
 
-## mobile version
-![screenshot](./image/pop-up/mobileScreenPopup.png);
-
-## Desktop version
-![screenshot](./image/pop-up/desktopScreenShot-window-popup.png)
+## ScreenShoot Validate contact form
+![screenshot](./image/formValidation.png)
 
 
 
@@ -17,6 +14,7 @@
 
 - HTML5
 - CSS3
+- JS
 
 ### Live Demo
 
@@ -43,7 +41,7 @@ To get a local copy up and running follow these simple example steps.
 
 - [GitHub](https://github.com/kakarrot92)
 - [Twitter](https://twitter.com/kakarrot1992)
-- [LinkedIn](:https://www.linkedin.com/in/bogdan-stojanovic-97829b136/)
+- [LinkedIn](https://www.linkedin.com/in/bogdan-stojanovic-97829b136/)
 
 
 ### 🤝 Contributing

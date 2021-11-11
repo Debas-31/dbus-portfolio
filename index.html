@@ -136,15 +136,16 @@
         <h2 class="let-chat">Let's chat!</h2>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
       </div>
-      <form action="https://formspree.io/f/xrgrovrb" method="post">
+      <form action="https://formspree.io/f/xrgrovrb" id="form" method="post">
         <div class="text-input">
           <input type="text" class="text" maxlength="30" placeholder="First name" required>
           <input type="text" class="text-2" maxlength="30" placeholder="Last name" required>
         </div>
-        <div class="email-input"><input type="email" class="email" placeholder="Example: jeremy@gmail.com" required>
+        <div class="email-input"><input type="email" id="email" class="email" placeholder="Example: jeremy@gmail.com" required>
         </div>
          <div class="text-area"><textarea name="text-area" id="text-area" maxlength="500" placeholder="Enter text here ..." required></textarea>
         </div>
+        <p id="validate-message"></p>
         <div class="contact-btn">
           <button class="btn center-align" type="submit">Submit</button>
           <button class="center-align-btn" type="submit">Send</button>
@@ -167,5 +168,6 @@
   </div>
   <script src="main.js"></script>
   <script src="app.js"></script>
+  <script src="form.js"></script>
 </body>
 </html>
