@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Validate contact form
+# Portfolio: Preserve data in the browser
 
->This project of Milestone nine focuses how to implement DOM using javascript functions and methods to validate an input email while users filled the form.
+>This project of Milestone ten focuses how to implement DOM using javascript functions and methods to preserve data in browser on local machine.
 
 
-## ScreenShoot Validate contact form
-![screenshot](./image/formValidation.png)
+### ScreenShoot demo how to preserve data in browser
+![screenshot](./image/screenShot-preserveData.png)
 
 
 
