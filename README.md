@@ -1,20 +1,24 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: Preserve data in the browser
+# Portfolio: Desktop and Mobile Version
 
->This project of Milestone ten focuses how to implement DOM using javascript functions and methods to preserve data in browser on local machine.
-
-
-### ScreenShoot demo how to preserve data in browser
-![screenshot](./image/screenShot-preserveData.png)
+> I implemented DOM using JavaScript functions, methods, different tools, and technologies, a portfolio project.
 
 
+### Desktop ScreenShot 
+![screenshot](./image/desktop/../desktop-version-icons/desktop-screenShot.png)
+
+### Mobile ScreenShot 
+
+![screenshot](./image/Mobile-frame.png)
 
 ### Built With
 
 - HTML5
 - CSS3
 - JS
+- vscode
+- Figma
 
 ### Live Demo
 
@@ -27,21 +31,13 @@ To get a local copy up and running follow these simple example steps.
 - Clone this project by the command `git clone https://github.com/Debas-31/dbus-portfolio.git`
 - `cd repository_name` folder
 - Open `index.html` in your local browser or using Live Server in Visual Studio Code.
-### Author1
+
 
 👤 **Debas Gebreslasie**
 
 - [GitHub](https://github.com/Debas-31)
 - [Twitter](https://twitter.com/DEBSH76956492)
 - [LinkedIn](https://www.linkedin.com/in/debas-gebrengus)
-
-### Author2
-
-👤 **Bogdan Stojanovic**
-
-- [GitHub](https://github.com/kakarrot92)
-- [Twitter](https://twitter.com/kakarrot1992)
-- [LinkedIn](https://www.linkedin.com/in/bogdan-stojanovic-97829b136/)
 
 
 ### 🤝 Contributing
