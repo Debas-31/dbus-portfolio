@@ -2,8 +2,7 @@
 
 # Portfolio: Desktop and Mobile Version
 
-> I implemented DOM using JavaScript functions, methods, different tools, and technologies, a portfolio project.
-
+>The portfolio project is my website which contains my first capstone project Expo Book Fair and Awesome Book project, and is also responsive for all screen sizes.
 
 ### Desktop ScreenShot 
 ![screenshot](./image/desktop/../desktop-version-icons/desktop-screenShot.png)
