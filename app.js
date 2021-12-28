@@ -19,8 +19,8 @@ const projects = [
   {
     id: 1,
     title: 'Awesome Book',
-    picture: 'image/project/screenShot-awesomBook.png',
-    modalPicture: 'image/project/screenShot-Awesome-book.png',
+    picture: 'image/project/screenShot-Awesome-book.png',
+    modalPicture: 'image/Img-Placeholder-Desktop.png',
     description: "Awesome books is a simple website that displays a list of books and allows you to add and remove books from that list. In order to achieve this project we rewrote some of our function definitions into class expressions to apply JavaScript best practices and styling the core elements.",
     technologies: ['html', 'javaScript', 'css'],
     liveLink: 'https://debas-31.github.io/awesomebooks/',
