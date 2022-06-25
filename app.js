@@ -38,7 +38,7 @@ const projects = [
   },
   {
     id: 3,
-    title: 'To Book Store',
+    title: 'Book Store',
     picture: 'image/project/bookStore.png',
     modalPicture: 'image/project/bookStore.png',
     description: 'A website that contains Books and Categories pages. This project was initialized with components, you can add and remove books and also fetch data from the provided API.',
