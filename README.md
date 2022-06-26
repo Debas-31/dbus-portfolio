@@ -21,7 +21,7 @@
 
 ### Live Demo
 
-[Visit the Live Demo Link](https://debas-31.github.io/dbus-portfolio/)
+[Visit the Live Demo](https://debas-31.github.io/dbus-portfolio/)
 
 ### Install
 
