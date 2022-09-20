@@ -5,7 +5,7 @@
 >The portfolio project is my website which contains my first capstone project Expo Book Fair and Awesome Book project, and is also responsive for all screen sizes.
 
 ### Desktop ScreenShot 
-![screenshot](https://i.postimg.cc/DZfy9hD6/desktop-macbookgrey-front.png)
+![Screenshot](https://user-images.githubusercontent.com/65129228/191214887-ef24bf15-ba18-44c4-8a57-c02b43ace44c.png)
 
 
 ### Mobile ScreenShot 
