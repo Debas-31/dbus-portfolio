@@ -7,13 +7,13 @@ const overlayDiv = document.querySelector('.overlay');
 const projects = [
   {
     id: 0,
-    title: 'Expo Book Fair',
-    picture: 'image/project/expoBookFair.png',
-    modalPicture: 'image/project/expoBookFair.png',
-    description: "It's a web app designed to invite book lovers that contain two pages with different sections. It is also a capstone project on the Microverse HTML/CSS  module. Implement DOM using javascript methods with various tools and technologies.",
-    technologies: ['html', 'css', 'javaScript'],
-    liveLink: 'https://debas-31.github.io/dbus-first-capstone/',
-    codeLink: 'https://github.com/Debas-31/dbus-first-capstone',
+    title: 'Rails Budget App',
+    picture: 'image/project/budgetApp.png',
+    modalPicture: 'image/project/budgetApp.png',
+    description: "A mobile web application where users can manage their budget; they can have a list of transactions associated with a category to see how much money they spent and on what item.",
+    technologies: ['html', 'css', 'ruby', 'ruby on rails', 'tailwind-css'],
+    liveLink: 'https://serene-ocean-56296.herokuapp.com/',
+    codeLink: 'https://github.com/Debas-31/rails-budget-app',
 
   },
   {
