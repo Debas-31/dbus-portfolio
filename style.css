@@ -881,7 +881,7 @@ footer {
   }
 
   .logo:hover {
-    transform: rotate(-5deg);
+    transform: rotate(360deg);
     font-size: 1.5rem;
   }
 
